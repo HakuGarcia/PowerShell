@@ -1,0 +1,11 @@
+# .\ ⇾ roda arquivo .bat 
+# ping www.site.com ⇾ roda sites
+
+# puxa o tipo da variavel
+$env:variavel.GetType()
+
+# divide a variavel em tópicos
+$env:variavel.split(";")
+
+# lista os tipos de propriedades disponiveis
+$env:variavel | Get-Member
