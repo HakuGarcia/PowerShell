@@ -1,0 +1,24 @@
+#.ps1 ⇾ extensão do PowerShell
+# convenção de nome ⇾ Verb-Noun | CMDLET
+
+# busca apelidos para comandos antigos:
+Get-Alias -Name nome 
+
+# busca comandos com base no nome:
+Get-Command -Name *nome*
+Get-Command -Noun nome
+
+# comandos de ajuda:
+Get-Help -Name nome 
+Get-Help cmdlet -examples
+Update-Help
+comando -WhatIf 
+
+# novo apelido:
+new-alias -Name "nome" comando 
+
+# os alias reiniciam toda vez que o PowerShell é fechado
+
+# scripts executados antes de iniciar uma sessão: 
+$profile ⇾ variável para os scripts
+$profile.AllUsersAllHosts ⇾ variável que pode ser usada para todos os usuários e todos os hosts 
