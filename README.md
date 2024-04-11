@@ -1,5 +1,7 @@
 <h1 align="center">
-    <!-- Link pokemon -->
+    <a href="https://pokemondb.net/pokedex/bronzor">
+        <img width="35" src="https://img.pokemondb.net/sprites/black-white/anim/normal/bronzor.gif" alt="Bronzor">
+    </a>
     <span>PowerShell</span>
 </h1>
 
