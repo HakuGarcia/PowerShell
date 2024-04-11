@@ -1,0 +1,10 @@
+$service = Get_Service -Name "Nome Do Servico" -ComputerName "NMDS01"
+$service.Status
+
+if ($service.Status -eq "Running") {
+    $service.Stop()
+    $service.Start()
+} else {
+    echo "Não estava executando."
+}
+
