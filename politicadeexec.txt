@@ -1,0 +1,10 @@
+# modificando a politica de execução do PowerShell:
+
+# mais sobre as politicas de execução:
+Get-help  about_Execution_Policies
+
+# vendo em qual politica o sistema está:
+Get-ExecutionPolicy 
+
+# altera a politica que o sistema está:
+Set-ExecutionPolicy Unrestricted
