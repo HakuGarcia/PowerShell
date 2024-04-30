@@ -83,7 +83,7 @@ Study repository for the course <strong> PowerShell </strong> of Alura. <br> (th
         <tr>
             <td>06</td>
             <td> 
-                <a href="https://github.com/HakuGarcia/PowerShell/blob/f482cc837479bccd71bb8e595634a91587b91790/profile.ps1">Coleção</a>
+                <a href="https://github.com/HakuGarcia/PowerShell/tree/ca0eead64fe2b993693a429a22854f2030f2b67f/cole%C3%A7%C3%A3o">Coleção</a>
             </td>
             <td>
                 <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
@@ -160,7 +160,7 @@ Study repository for the course <strong> PowerShell </strong> of Alura. <br> (th
         <tr>
             <td>06</td>
             <td> 
-                <a href="https://github.com/HakuGarcia/PowerShell/blob/f482cc837479bccd71bb8e595634a91587b91790/profile.ps1">Coleção</a>
+                <a href="https://github.com/HakuGarcia/PowerShell/tree/ca0eead64fe2b993693a429a22854f2030f2b67f/cole%C3%A7%C3%A3o">Coleção</a>
             </td>
             <td>
                 <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
