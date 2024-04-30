@@ -1,0 +1,61 @@
+# propriedades:
+
+.Length
+.Name
+-------------------
+
+# alias:
+where-object = ?
+select-object = select
+
+-----------------------------------------------------------------------
+
+# listando os arquivos:
+
+gci -> diretório raiz
+gci -Recurse -> lista os arquivos de cada diretório
+gci -Recurse -File -> lista todos os arquivos excluindo os diretórios
+
+-----------------------------------------------------------------------
+
+# selecionando informações:
+
+gci -Recurse -File |  Where-Object { $_ -like "*a_0*" } | select-object [#propriedades] -> seleciona as propriedades definidas dos arquivos
+
+-----------------------------------------------------------------------
+
+# formatando informações:
+
+## formatando em KB, MB e GB
+
+"{0:N2}GB = {1:N2}" -f (valor / 1GB), (valor / 1MB) -> formata em GB e MB
+gci -Recurse -File |  Where-Object { $_ -like "*a_0*" } | select-object { $_ .Length / 1KB } -> formata em KB
+gci -Recurse -File |  Where-Object { $_ -like "*a_0*" } | select-object Name, { "{0:N2}KB" -f  ($_.Length / 1KB) } -> formata em KB
+
+## formatando tabela
+
+@() -> Array vazia
+@{} -> Hashtable
+"Nome", { [#expressão] }
+
+-----------------------------------------------------------------------
+
+# script :
+
+$nameExpr = @{
+    Label = "Nome";
+    Expression = {$_.Name}
+}
+
+$lengthExpr = @{
+    Label = "Tamanho";
+    Expression = { "{0:N2}KB" -f  ($_.Length / 1KB) }
+}
+
+$params = $nameExpr, $lengthExpr
+
+gci -Recurse -File |
+    ? { $_ -like "*a_0*" } |
+    select `
+        $params
+        

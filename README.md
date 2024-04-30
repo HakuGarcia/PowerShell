@@ -80,6 +80,15 @@ Study repository for the course <strong> PowerShell </strong> of Alura. <br> (th
                 <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
             </td>
         </tr>
+        <tr>
+            <td>06</td>
+            <td> 
+                <a href="https://github.com/HakuGarcia/PowerShell/blob/f482cc837479bccd71bb8e595634a91587b91790/profile.ps1">Coleção</a>
+            </td>
+            <td>
+                <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
+            </td>
+        </tr>
     </tbody>
     <tfoot></tfoot>
     </table>
@@ -143,6 +152,15 @@ Study repository for the course <strong> PowerShell </strong> of Alura. <br> (th
             <td>05</td>
             <td> 
                 <a href="https://github.com/HakuGarcia/PowerShell/blob/f482cc837479bccd71bb8e595634a91587b91790/profile.ps1">Profile</a>
+            </td>
+            <td>
+                <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
+            </td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td> 
+                <a href="https://github.com/HakuGarcia/PowerShell/blob/f482cc837479bccd71bb8e595634a91587b91790/profile.ps1">Coleção</a>
             </td>
             <td>
                 <img alt="Static Badge" src="https://img.shields.io/badge/alura%2001-white?style=for-the-badge">
